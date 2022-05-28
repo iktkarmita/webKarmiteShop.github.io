@@ -1,4 +1,4 @@
-fitur admin account dan user account
-fitur validasi ketika admin upload produks
+ditambahkan fitur admin account dan user account
+ditambahkan fitur validasi ketika admin upload produks
 navbar fixed
 sidebar fixed
