@@ -24,4 +24,4 @@ cara menjalankan project laravel saya
 13. silahkan klik gambar product tadi
 14. terlihat ada nama, keterangan, harga, persediaan, dan update terakhir produk untuk memastikan produk masih tersedia jika persediaan habis
 
-//note : navbar sudah di fixed//
+//note : navbar sudah di fixed.//
