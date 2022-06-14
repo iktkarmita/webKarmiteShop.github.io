@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Produks;
 use Illuminate\Http\Request;
 use App\Repositories\ProduksRepository;
+use Illuminate\Support\Facades\Auth;
 
 
 class HomeController extends Controller
@@ -32,5 +33,11 @@ class HomeController extends Controller
         $Produk = produks::all();
 
         return view('home', compact(['Produk']));
+    }
+    public function cartt($id)
+    {
+        $this->middleware('auth');
+        $Produk = $this->ProduksRepository->findById($id);
+        return view('cart', compact(['Produk']));
     }
 }
